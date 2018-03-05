@@ -20,5 +20,5 @@ for x in range(width):
 #    for j in range(height):
 #        image.putpixel((i,j),(R[height*i+j],G[height*i+j],B[height*i+j]))
 
-image.save('1.jpg')
+image.save('Q2.jpg')
 
