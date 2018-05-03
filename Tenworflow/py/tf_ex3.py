@@ -31,7 +31,7 @@ ys=tf.placeholder(tf.float32,[None,10])  #0-9
 prediction=add_layer(xs,784,10,tf.nn.softmax)
 
 #the error between prediction and real data
-cross_entropy=tf.reduce_mean(-tf.reduce_sum(ys*tf.log(prediction),reduction_indices=[1]))
+cross_entropy=tf.reduce_mean(-tf.reduce_sum(ys*tf.log(prediction),reduction_indices=[1]))#loss
 train_step=tf.train.GradientDescentOptimizer(0.5).minimize(cross_entropy)
 
 with tf.Session() as sess:
