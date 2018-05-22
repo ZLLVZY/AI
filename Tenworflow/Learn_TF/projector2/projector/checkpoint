@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/x/deeplearning/Tenworflow/Learn_TF/projector2/projector/a_model.ckpt-1001"
+all_model_checkpoint_paths: "/home/x/deeplearning/Tenworflow/Learn_TF/projector2/projector/a_model.ckpt-1001"
