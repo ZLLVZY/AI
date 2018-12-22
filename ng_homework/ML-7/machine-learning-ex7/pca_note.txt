@@ -1,0 +1,4 @@
+sigma=X'*X/m;  n*m * m*n = n*n
+[U,S,V]=svd(sigma)
+Z=X*U(:,1:K)  m*n * n*K= m*K  n维降为K维
+rec=Z*U(:,1:K)'  m*K * K*n =m*n K维恢复为原来m维
